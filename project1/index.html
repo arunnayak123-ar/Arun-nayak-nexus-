@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Infotech Placement Drive Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nexus Infotech Placement Drive</h1>
+        <form id="registrationForm">
+            <label for="regNo">Registration Number</label>
+            <input type="text" id="regNo" name="regNo" placeholder="Enter your registration number" required>
+
+            <label for="branch">Branch</label>
+            <select id="branch" name="branch" required>
+                <option value="">Select your branch</option>
+                <option value="CSE">CSE</option>
+                <option value="ETC">ETC</option>
+                <option value="EE">EE</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civil">Civil</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <label for="year">Year</label>
+            <select id="year" name="year" required>
+                <option value="">Select your year</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script src="backend.js"></script>
+</body>
+</html>
